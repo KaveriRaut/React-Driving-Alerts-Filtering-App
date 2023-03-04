@@ -24,16 +24,21 @@
 
 ---
 
-# Clone the repository :
+# Run the Project on Local Machine  :
 
-- Creating mock API using JSON server
-1. Follow Documentation : https://github.com/typicode/json-server
-2. Installation : npm install -g json-server
-3. Start Server: json-server --watch db.json
-4. Open the db.json file from directory where you installed the JSON server. Add sample data from 'SampleData' file above created by me to that db.json file
-5. Now you can access the json data at https://localhost:3000/alerts or https://localhost:3000/vehicle
+### Creating mock API using JSON server
+1. Installation : npm install -g json-server
+2. Start Server: json-server --watch db.json
+3. Open the db.json file from directory where you installed the JSON server. Add sample data from 'SampleData' file above created by me to that db.json file
+4. Now you can access the data using endpoints http://localhost:3000/alerts or http://localhost:3000/vehicles
+5. To learn more follow Documentation : https://github.com/typicode/json-server
 
-
+### Clone the github repository
+1. Download ZIP of github repository manually and extract in local folder or clone git repository to local folder using VS code editor directly.
+2. Open that folder in VScode and run following commands in terminal. 
+3. To install all dependancies and packages : npm install
+4. To run the react app : npm start
+5. Make sure that JSON server is started first at localhost:3000 then react app running on any other port.
 
 ---
 
