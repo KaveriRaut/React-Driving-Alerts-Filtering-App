@@ -29,9 +29,10 @@
 ### Creating mock API using JSON server
 1. Installation : npm install -g json-server
 2. Start Server: json-server --watch db.json
-3. Open the db.json file from directory where you installed the JSON server. Add sample data from 'SampleData' file above created by me to that db.json file
-4. Now you can access the data using endpoints http://localhost:3000/alerts or http://localhost:3000/vehicles
-5. To learn more follow Documentation : https://github.com/typicode/json-server
+3. Open the db.json file from directory where you installed the JSON server. 
+4. Add sample data from 'SampleData.json' file from this repo. created by me to that db.json file
+5. Now you can access the data using endpoints http://localhost:3000/alerts or http://localhost:3000/vehicles
+6. To learn more follow Documentation : https://github.com/typicode/json-server
 
 ### Clone the github repository
 1. Download ZIP of github repository manually and extract in local folder or clone git repository to local folder using VS code editor directly.
