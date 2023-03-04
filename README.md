@@ -1,51 +1,46 @@
-# "React Search Filter Tutorial"
+# React JS : Driving Alerts Filtering App 
+
+- Single page application : using React JS. 
+- JSON server : used to create mock api. 
+- This application displays all posts of driving alerts fetched from mock api created using JSON server.
+- User can search posts of driving alert using text :
+  - By driver's name. 
+  - By type of driving alert. 
+  - By vehicle's number plate.
+- User can search posts of alert by date range filter as well. All post between start and end date will be displayed.
+- Each post of driving alert contains :
+  - Type of alert.
+  - Driver's name.
+  - Date and time.
+  - False alarm set button.
+  
+---
+
+# Tech Stack Used : 
+
+- React JS
+- CSS
+- JSON server : mock API
 
 ---
 
-### Author Links
+# Clone the repository :
 
-👋 Hello, I'm Dave Gray.
+- Creating mock API using JSON server
+1. Follow Documentation : https://github.com/typicode/json-server
+2. Installation : npm install -g json-server
+3. Start Server: json-server --watch db.json
+4. Open the db.json file from directory where you installed the JSON server. Add sample data from 'SampleData' file above created by me to that db.json file
+5. Now you can access the json data at https://localhost:3000/alerts or https://localhost:3000/vehicle
 
-✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
 
-🚩 [Subscribe to my channel](https://bit.ly/3nGHmNn)
-
-☕ [Buy Me A Coffee](https://buymeacoffee.com/DaveGray)
-
-🚀 Follow Me:
-
-- [Twitter](https://twitter.com/yesdavidgray)
-- [LinkedIn](https://www.linkedin.com/in/davidagray/)
-- [Blog](https://yesdavidgray.com)
-- [Reddit](https://www.reddit.com/user/DaveOnEleven)
 
 ---
 
-### Description
+## Video Demo :
 
-📺 [YouTube Video](https://youtu.be/ZoayCCDHFiI) for this repository.
+Here playing the video demo of Netflix2.0_Clone
 
----
-
-### 💻 Source Code
-
-- 🔗 [React Search Filter Tutorial - Completed Source Code](https://github.com/gitdagray/react_search_filter)
+https://user-images.githubusercontent.com/97447480/209585676-87c38a87-9619-48d0-907d-94c15746dca6.mp4
 
 ---
-
-### 🎓 Academic Honesty
-
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
-
----
-
-### 📚 Tutorial References
-
-- 🔗 [Use FontAwesome with React](https://fontawesome.com/docs/web/use-with/react/)
-- 🔗 [JSON Placeholder: Posts](https://jsonplaceholder.typicode.com/posts)
-
-### ⚙ VS Code Extensions I Use:
-
-- 🔗 [ES7 React JS Snippets Extension](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-- 🔗 [vscode-icons VS Code Extension](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-- 🔗 [Github Themes VS Code Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
