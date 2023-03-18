@@ -49,7 +49,7 @@
 
 ## Video Demo :
 
-https://user-images.githubusercontent.com/97447480/222922266-7e1819c0-572a-4f7d-9897-f01b3c5fd9f3.mp4
+![Screenshot 2023-03-18 214331](https://user-images.githubusercontent.com/97447480/226118572-3b32ddfb-2592-4255-9f27-156d44bea8aa.png)
 
 
 ---
