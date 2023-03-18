@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-    <h1 className='titleStyle'>React Alerts Filtering App</h1>
+    <h1 className='titleStyle'>🔎React Alerts Filtering App🔍</h1>
       <div class="flex-parent-element">
         <div class="flex-child-element magenta"><SearchBar posts={posts} setSearchResults={setSearchResults} /></div>
         <div class="flex-child-element green"><SearchByVehicle posts={posts} setSearchResults={setSearchResults} /></div>

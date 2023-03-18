@@ -41,6 +41,10 @@
 4. To run the react app : npm start
 5. Make sure that JSON server is started first at localhost:3000 then react app running on any other port.
 
+#### if module not found error occurs in react install following packages seperately
+- npm i @date-io/date-fns@1.x date-fns
+- npm i @date-io/moment@1.x moment
+
 ---
 
 ## Video Demo :

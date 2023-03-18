@@ -7,7 +7,8 @@
 }
 
 body {
-  background-color: rgb(221, 220, 220);
+  background-image: url("/public/bg2.jpg");
+  background-color: rgb(126, 211, 242);
   font-family: 'Nunito', sans-serif;
 }
 
@@ -17,6 +18,15 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #511e98;
+  text-decoration: underline;
+  /* border: 10px solid #b193dd; */
+
+  /* font-family:cursive; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* input,buttons,header normal styling*/
@@ -36,10 +46,13 @@ p {
 
 header {
   background-color: rgb(221, 220, 220);
+  background: linear-gradient(#ccbde7 ,#a6d3e6 );
   padding: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+  border: 2px solid #3751b1;
 }
 
 /* search input flex box */
@@ -59,7 +72,7 @@ header {
 
 .search {
   width: 95%;
-  border: 2px solid #000;
+  border: 2px solid #3751b1;
   border-radius: 5px;
   overflow: hidden;
   font-size: 1rem;
@@ -68,7 +81,7 @@ header {
 }
 
 .search:focus-within {
-  box-shadow: 2px 2px 5px #000;
+  box-shadow: 2px 2px 5px #45179a;
 }
 
 .search__button,
@@ -91,29 +104,38 @@ header {
   }
 }
 
-@media (max-width: 500px) {
-  .search {
-    font-size: 0.5rem;
+@media (min-width: 900px) {
+  .search__input {
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 1100px) {
+  .search__input {
+    font-size: 1rem;
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   .search {
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 
 /* article posts styling */
 article {
-  margin: 0.4em;
+  margin: 0.5em;
   margin-left: 1.2em;
   margin-right: 1.2em;
   padding: 0.5em;
-  background-color: rgb(255, 255, 255);
+  /*background-color: rgb(255, 255, 255);*/
+  background: linear-gradient(#f5f7fa , #c3cfe2);
   color: rgb(0, 0, 0);
-  border-radius: 5px;
+  border-radius: 20px;
   border: 1px solid #000;
+}
+article:hover{
+  background: linear-gradient(#ccbde7 ,#a6d3e6 );
 }
 
 @media (min-width: 700px) {
@@ -157,7 +179,8 @@ article {
 }
 
 .iconStyle button:hover {
-  background: rgb(129, 137, 138);
+  /* background: rgb(129, 137, 138); */
+  background: rgb(136, 113, 188);
   color: aliceblue;
   cursor: pointer;
 }
@@ -196,7 +219,8 @@ article {
 }
 
 .resetButton button:hover {
-  background: rgb(106, 114, 115);
+  background: rgb(136, 113, 188);
+  /* background: linear-gradient(#a1c4fd , #c2e9fb); */
   color: aliceblue;
   cursor: pointer;
 }
